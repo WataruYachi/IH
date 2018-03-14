@@ -7,6 +7,7 @@
 \usepackage{subfiles}
 \usepackage{color}
 \usepackage{luatexja-otf}
+\usepackage{comment}
 
 \setmainfont{ipaexm}
 \setmainjfont[
@@ -29,10 +30,13 @@
     We are given myself by our sense,\\
     we are been to be tied to it.\\
 
-    %A long long time ago, I lost my body.\\
-    %But I'll have felt a pain.\\
-    %Ever ever ever ever ever...\\
-    %I...I can't bear this ache any longer.\\
+    \if0
+      A long long time ago, I lost my body.
+      But I'll have felt a pain.
+      Ever ever ever ever ever...
+      I...I can't bear this ache any longer.
+    \fi
+
     \ding{"76}
     \begin{center}
     \parbox[t]{0.5\linewidth}{\tt
@@ -49,6 +53,16 @@
 \newpage
 
 \subfile{sections/IHSection1}
+寂しさに潰れそうな私を、\ruby{瀬玲奈}{セレナ}がそっと手を握ってくれる。
+友達同士で手をつなぐことなんて、今までになかったから、その暖かさに驚く。
+
+そして、寒さに身を寄せ合う私たち二人を前に、彼は語り始めた。\\
+「君たちには、悪夢を狩ってもらいたいんだ」\\
+子ども番組に出てくるキャラクターのような愛くるしい声と、その異質な姿。
+「悪夢？それって、あの時のヤツみたいな？」\\
+漂う光る球体に、瀬玲奈がそう聞いた。
+
+テスト\colorbox{black}{adsf}
 
 \parbox<y>{\linewidth}{
 \begin{landscape}
@@ -473,4 +487,8 @@
 「嫌なこと辛いこと、なんでもかんでも一人で抱え込まないで。
 
 \scalebox{3}[1]{―}何のために、瀬玲奈は今、ここにいるの？」\\
+
+Sometimes, we had been thinking a one thing; 
+About that this world which we live in 
+was made by either some great one like a god or god himself.
 \end{document}
